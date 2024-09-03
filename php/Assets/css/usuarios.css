@@ -1,0 +1,72 @@
+.box-users{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    background-color: rgb(66, 63, 63);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; 
+    padding: 10px;
+}
+
+thead{
+    background-color: rgb(36, 33, 33);
+}
+
+tbody{
+    background-color: rgba(36, 33, 33, 0.516);
+}
+
+
+
+
+
+th{
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    text-shadow: 5px 5px 8px black;
+}
+
+
+
+th, tr{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+td{
+    color: rgb(237, 232, 232);
+    text-shadow: 3px 3px 10px black;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: smaller;
+}
+
+
+
+
+.userContainer div{
+    font-size: smaller;
+    color: white;
+}
+
+hr{
+    width: 100%;
+}

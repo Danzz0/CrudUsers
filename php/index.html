@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <form class="formulario" action="form.php" method="POST">
+                <h1>Sign up</h1>
+
+                <div class="formPequeno">
+                    <!-- INPUTS DE CADASTRO -->
+
+                    
+                    <input type="text" name="nome" id="" placeholder="Nome:">
+                    
+                    <input type="email" name="email" id="" placeholder="Email:">
+
+                    <input type="password" name="senha" id="" placeholder="Senha:" required="true"> 
+
+                    <label class="genero" for="sexo">Gênero:</label>
+
+                    <div class="genero">
+                        <label for="sexo">Feminino</label>
+                        <input class="radio" type="radio" name="sexo" id="" value="F">
+                    </div>
+
+                    <div class="genero">
+                        <label for="sexo">Masculino</label>
+                        <input class="radio" type="radio" name="sexo" id="" value="M">
+                    </div>
+
+                    <div class="genero">
+                        <label for="sexo">Outro</label>
+                        <input class="radio" type="radio" name="sexo" id="" value="O">
+                    </div>
+                    
+                    <label for="dataNasc">Data de Nascimento:</label>
+                    <input type="date" name="dataNasc" id="" placeholder="Data de nascimento">
+
+                    <input type="text" name="cep" id="" placeholder="CEP:">
+
+                    <input type="submit" name="submit" id="submit" value="Enviar" class="enviar"> 
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+<!-- Usuário
+Email
+Telefone
+Sexo
+Data de nascimento
+CEP:
+cidade
+Estado
+Endereço -->
